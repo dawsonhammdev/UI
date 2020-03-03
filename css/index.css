@@ -31,7 +31,7 @@ nav .logo {
 }
 nav .main-menu {
   display: flex;
-  width: 30%;
+  width: 35%;
 }
 @media (max-width: 500px) {
   nav .main-menu {
