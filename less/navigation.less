@@ -1,0 +1,72 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 90px;
+    font-family: 'Montserrat';
+
+
+
+
+    .logo{
+        margin-left: 5%;
+        width: 45px;
+
+        @media @phone{
+            width: 10%;
+        }
+
+   
+    }//end of .logo styling
+
+    .main-menu{
+        display: flex;
+        width: 39%;
+
+        @media @phone{
+            width: 40%;
+        }
+
+        a:hover{
+            color: #CDCDCD;
+        }
+
+        .button{
+            background-color: #4B6EF5;
+            border-radius: 15px;
+            color: white;
+            padding: 7px 20px;
+            margin-left: 12%;
+
+            @media @phone{
+                font-size: .8rem;
+                padding: 7px 10px;
+            }
+
+            
+        }
+
+        @media @phone{
+            width: 100%;
+            justify-content: center;
+        }
+
+        a{
+            text-decoration: none;
+            color: #4B6EF5;
+            padding: 7px 3%;
+            font-size: 1rem;
+            font-weight: bold;
+
+
+
+            @media @phone{
+                font-size: .8rem;
+
+            }
+
+
+        }//end of a styling
+    }//end of main-menu
+}//end of nav styling
