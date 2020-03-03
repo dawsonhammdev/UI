@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 90px;
+  font-family: 'Montserrat';
+}
+nav .logo {
+  margin-left: 5%;
+  width: 45px;
+}
+@media (max-width: 500px) {
+  nav .logo {
+    width: 10%;
+  }
+}
+nav .main-menu {
+  display: flex;
+  width: 30%;
+}
+@media (max-width: 500px) {
+  nav .main-menu {
+    width: 50%;
+  }
+}
+nav .main-menu a:hover {
+  color: #CDCDCD;
+}
+nav .main-menu .button {
+  background-color: #4B6EF5;
+  border-radius: 15px;
+  color: white;
+  padding: 7px 10px;
+  margin-left: 12%;
+}
+@media (max-width: 500px) {
+  nav .main-menu .button {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 500px) {
+  nav .main-menu {
+    width: 100%;
+    justify-content: center;
+  }
+}
+nav .main-menu a {
+  text-decoration: none;
+  color: #4B6EF5;
+  padding: 7px 3%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  nav .main-menu a {
+    font-size: 0.8rem;
+  }
+}
+.section-one {
+  display: flex;
+  margin-top: 15%;
+}
+.section-one h1 {
+  font-family: 'Montserrat';
+  color: #4B6EF5;
+  font-size: 2rem;
+}
+.section-one p {
+  font-family: 'Open Sans';
+  color: #3F3D56;
+}
+.section-one .drawing1 {
+  width: 50%;
+}
+.section-one .drawing1 img {
+  width: 70%;
+  margin-left: 35%;
+}
+.section-one .text-one {
+  width: 50%;
+  padding: 0 10%;
+}
+.section-two {
+  display: flex;
+  margin-top: 15%;
+}
+.section-two h1 {
+  font-family: 'Montserrat';
+  color: #4B6EF5;
+  font-size: 2rem;
+}
+.section-two p {
+  font-family: 'Open Sans';
+  color: #3F3D56;
+}
+.section-two .drawing2 {
+  width: 50%;
+}
+.section-two .drawing2 img {
+  width: 70%;
+  margin-left: 35%;
+}
+.section-two .text-two {
+  width: 50%;
+  padding: 0 10%;
+}
