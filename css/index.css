@@ -72,6 +72,9 @@ nav .main-menu a {
     font-size: 0.8rem;
   }
 }
+footer {
+  display: flex;
+}
 .section-one {
   display: flex;
   margin-top: 15%;
