@@ -1,4 +1,4 @@
-.section-one{
+.hero{
     display: flex;
     margin-top: 15%;
 
@@ -28,6 +28,7 @@
 
     .drawing1{
         width: 50%;
+        
 
         img{
             width: 70%;
@@ -62,33 +63,190 @@
     }
 }
 
-.section-two{
-    display: flex;
-    margin-top: 15%;
+
+
+#features{
+    background-color: #4B6EF5;
+    margin-top: 10%;
+    padding-bottom: 5%;
 
     h1{
         font-family: 'Montserrat';
-        color: #4B6EF5;
-        font-size: 2rem;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 5%;
+
+        @media @phone{
+            font-size: 2rem;
+            padding: 5%;
+        }
+        
     }
+    
+    .section-two{
+        display: flex;
+        margin-top: 10%;
 
-    p{
-        font-family: 'Open Sans' ;
-        color:  #3F3D56;
-    }
+        @media @phone{
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        h1{
+            font-family: 'Montserrat';
+            color: white;
+            font-size: 1.5rem;
+            text-align: left;
 
+            @media @phone{
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+    
+        p{
+            font-family: 'Open Sans' ;
+            color:  #3F3D56;
+        }
+    
+    
+        .drawing2{
+            width: 50%;
 
-    .drawing2{
-        width: 50%;
+            
+    
+            img{
+                width: 50%;
+                margin-left: 45%;
 
-        img{
-            width: 70%;
-            margin-left: 35%;
+                @media @phone{
+                    margin-left: 0;
+                    width: 100%;
+                    
+                }
+            }
+        }
+    
+        .text-two{
+            width: 50%;
+            padding: 0 10%; 
+
+            @media @phone{
+                padding: 0;
+                width: 80%;
+            }
         }
     }
 
-    .text-two{
-        width: 50%;
-        padding: 0 10%; 
+    .section-three{
+        display: flex;
+        margin-top: 5%;
+
+        @media @phone {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        h1{
+            font-family: 'Montserrat';
+            color: white;
+            font-size: 1.5rem;
+            text-align: left;
+
+            @media @phone{
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+    
+        p{
+            font-family: 'Open Sans' ;
+            color:  #3F3D56;
+        }
+    
+    
+        .drawing3{
+            width: 50%;
+    
+            img{
+                width: 50%;
+                margin-left: 45%;
+
+                @media @phone{
+                    margin-left: 0;
+                    width: 100%;
+                    
+                }
+            }
+        }
+    
+        .text-three{
+            width: 50%;
+            padding: 0 10%; 
+        }
     }
+}
+
+.bottom{
+    
+    .bottom-display{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7%;
+        padding-left: 15%;
+        padding-right:15%;
+
+        .bottom-img{
+         width: 100%;
+        text-align: center;
+            img{
+                width: 40%;
+                
+
+            }
+        }
+
+        .bottom-text{
+            width: 80%;
+            margin-top: 8%;
+
+            p{
+                font-family: 'Open Sans' ;
+                color:  #3F3D56;
+                text-align: center;
+                margin-bottom: 15%;
+            }
+
+            
+        }
+
+        .button-bottom{
+            background-color: #4B6EF5;
+            border-radius: 15px;
+            color: white;
+            text-decoration: none;
+            font-family: 'Montserrat';
+            padding: 7px 20px;
+            margin: 0 auto;
+        }
+    }
+
+
+    
+
+    h1{
+        text-align: center;
+        font-family: 'Montserrat';
+        color: #4B6EF5;
+        font-size: 3rem;
+
+        @media @phone{
+            font-size: 2rem;
+        }
+    }
+
+    
+
 }
