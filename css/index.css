@@ -79,7 +79,7 @@ footer {
   display: flex;
   margin-top: 20%;
   justify-content: space-between;
-  width: 100%;
+  width: 99%;
   align-items: center;
 }
 footer .logo-footer {
@@ -88,6 +88,11 @@ footer .logo-footer {
 }
 footer .logo-footer img {
   width: 6%;
+}
+@media (max-width: 500px) {
+  footer .logo-footer img {
+    width: 15%;
+  }
 }
 footer .footer-menu {
   text-decoration: none;
@@ -294,7 +299,12 @@ footer .footer-menu a {
   font-family: 'Open Sans';
   color: #3F3D56;
   text-align: center;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
+}
+@media (max-width: 500px) {
+  .bottom .bottom-display .bottom-text p {
+    margin-bottom: 15%;
+  }
 }
 .bottom .bottom-display .button-bottom {
   background-color: #4B6EF5;
