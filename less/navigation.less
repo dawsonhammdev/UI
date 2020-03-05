@@ -5,14 +5,52 @@ nav{
     align-items: center;
     height: 90px;
     font-family: 'Montserrat';
-    
-
-
-
 
     .logo{
-        margin-left: 5%;
-        width: 55px;
+        display: flex;
+        align-items: center;
+        width: 40%;
+        
+        @media @phone{
+            margin-left: 1%;
+        }
+
+        .text-logo{
+            @media @phone{
+                width: 45%;
+            }
+        }
+
+        .icon-logo{
+            width: 50%;
+
+            @media @phone{
+                width: 50%;
+            }
+
+            img{
+                width: 14%;
+                margin-left: 28%;
+
+                @media @phone{
+                    width: 95%;
+                }
+            }
+
+            
+        }
+        
+        h1{
+            color: #4c6ef5;
+            font-weight: bold;
+            margin-left: -78%;
+            font-size: 2rem;
+
+            @media @phone{
+                font-size: 1.5rem;
+                margin-left: 55%;
+            }
+        }
 
         @media @phone{
             width: 10%;
@@ -34,7 +72,7 @@ nav{
         }
 
         .button{
-            background-color: #4B6EF5;
+            background: linear-gradient(90deg,#4c6ef5,#d34cf5);
             border-radius: 15px;
             color: white;
             padding: 7px 20px;
@@ -49,13 +87,13 @@ nav{
         }
 
         @media @phone{
-            width: 100%;
+            width: 65%;
             justify-content: center;
         }
 
         a{
             text-decoration: none;
-            color: #4B6EF5;
+            color: white;
             padding: 7px 3%;
             font-size: .8rem;
             font-weight: bold;
